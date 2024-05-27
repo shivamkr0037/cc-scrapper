@@ -10,14 +10,14 @@ from pyrogram import Client
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Aiogram setup
-BOT_TOKEN = "7008524203:AAGTnDSdHaiVy6Facmf42P4XkA5r7RFIEjs"  # Replace this BOT_TOKEN
+BOT_TOKEN = "7092224203:AAGTnDSwhaHaiVy6FavsjwP4XkA5r7RFIEjs"  # Replace this BOT_TOKEN
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
 # Pyrogram setup
-api_id = "1439618"  # Replace this API ID with your actual API ID
-api_hash = "8c2aec88ebfe39b9db04ed9e758826d2"  # Replace this API HASH with your actual API HASH
-phone_number = "+918405904190"  # Replace this with your phone number
+api_id = "1029218"  # Replace this API ID with your actual API ID
+api_hash = "8c2aec88ebfe3kwjjwis859e758826d2"  # Replace this API HASH with your actual API HASH
+phone_number = "+918408292190"  # Replace this with your phone number
 
 user_client = Client("my_account", api_id=api_id, api_hash=api_hash, phone_number=phone_number)
 
